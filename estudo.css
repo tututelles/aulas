@@ -6,8 +6,9 @@
     box-sizing: border-box;
     font-family:'Poppins', sans-serif;
 }
-menu{
+.menu{
     border: 0;
+    size: 50px;
     background-color: transparent;
     margin: 20px;
     z-index: 2;
