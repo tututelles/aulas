@@ -40,6 +40,10 @@
     position: absolute;
     top: 0;
 }
+a{
+    font-style: none;
+    color: black;
+}
 .navbar{
     position: absolute;
     height: 100%;
