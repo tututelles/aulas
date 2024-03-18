@@ -1,3 +1,4 @@
 {
-    "livePreview.defaultPreviewPath": "/estudo.html"
+    "livePreview.defaultPreviewPath": "/estudo.html",
+    "liveServer.settings.port": 5501
 }
