@@ -108,23 +108,11 @@ nav ul li .um{
     transform-origin: left;
     transform: scaleX(1);
 }
-.texto{
-    position: absolute;
-    margin-top: 150px;
+.provas{
     font-size: 100px;
-    font-family: Georgia;
-    margin-left: 20px;
-}
-.icone{
-    margin-top: 450px;
-    font-size: 200px;
-    margin-left: 50px;
-}
-.texto2{
-    position: relative;
-margin-top: -250px;
-font-size: 50px;
-font-family: Georgia;
-margin-left: 350px;
-
+    margin-left: 60px;
+    margin-top: 50px;
+    background: transparent;
+    outline: none;
+    border: none;
 }
