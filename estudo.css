@@ -1,17 +1,16 @@
-
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
-.login{
+
+.login {
     position: absolute;
     margin-left: 1350px;
     margin-top: 10px;
     font-size: 20px;
-    font-family:sans-serif ;
+    font-family: sans-serif;
     background-color: black;
     color: white;
     border-radius: 6px;
@@ -19,7 +18,8 @@
     border: 6px;
     transition: 0.4s;
 }
-.login:hover{
+
+.login:hover {
     position: absolute;
     margin-left: 1350px;
     margin-top: 10px;
@@ -31,7 +31,8 @@
     border-radius: 6px;
     padding: 10px 40px;
 }
-.menu{
+
+.menu {
     border: 0;
     font-size: 30px;
     background-color: transparent;
@@ -40,13 +41,15 @@
     position: absolute;
     top: 0;
 }
-nav ul li .um{
+
+nav ul li .um {
     font-style: none;
     font-style: normal;
     color: black;
     text-decoration: none;
 }
-.navbar{
+
+.navbar {
     z-index: 2;
     position: absolute;
     height: 100%;
@@ -58,7 +61,8 @@ nav ul li .um{
     transition: ease 700ms;
     top: 0;
 }
-.nava{
+
+.nava {
     display: flex;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.3);
@@ -67,23 +71,28 @@ nav ul li .um{
     height: 100%;
     padding-top: 50px;
 }
-.nava li{
+
+.nava li {
     font-size: 20px;
     margin: 10px 0px 0px 10px;
     font-family: sans-serif;
 }
-.nava li a{
+
+.nava li a {
     color: aliceblue;
 }
-.navbar.close{
+
+.navbar.close {
     margin-left: 0px;
 }
-.navigation{
+
+.navigation {
     justify-content: center;
     margin-left: 35%;
     margin-top: 25px;
 }
-.navigation a{
+
+.navigation a {
     position: relative;
     font-size: 1.1vw;
     color: #000000;
@@ -91,9 +100,10 @@ nav ul li .um{
     font-weight: 500;
     position: relative;
     margin-left: 40px;
-    
+
 }
-.navigation a::after{
+
+.navigation a::after {
 
     content: '';
     width: 100%;
@@ -106,32 +116,39 @@ nav ul li .um{
     transition: transform .5s;
     border-radius: 5px;
 }
-.navigation a:hover::after{
+
+.navigation a:hover::after {
     transform-origin: left;
     transform: scaleX(1);
 }
-.texto{
-    position: absolute;
+
+.caixa {
+    position: relative;
+    width: 100%;
+    z-index: -1;
+}
+
+.texto {
+    position: relative;
     margin-top: 150px;
     font-size: 100px;
     font-family: Georgia;
     margin-left: 20px;
-}
-.icone{
-    margin-top: 450px;
-    font-size: 200px;
-    margin-left: 50px;
-}
-.texto2{
-    position: relative;
-margin-top: -250px;
-font-size: 50px;
-font-family: Georgia;
-margin-left: 350px;
 
 }
-.caixa{
-    width: 100%;
-    background-color: black;
+
+.icone {
+    margin-top: 30px;
+    font-size: 200px;
+    margin-left: 50px;
+
+}
+
+.texto2 {
+    position: relative;
+    margin-top: -250px;
+    font-size: 50px;
+    font-family: Georgia;
+    margin-left: 350px;
     z-index: -1;
 }
