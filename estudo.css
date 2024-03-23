@@ -32,7 +32,6 @@
     padding: 10px 40px;
 }
 .menu{
-    z-index: 5;
     border: 0;
     font-size: 30px;
     background-color: transparent;
@@ -48,6 +47,7 @@ nav ul li .um{
     text-decoration: none;
 }
 .navbar{
+    z-index: 5;
     position: absolute;
     height: 100%;
     width: 200px;
@@ -110,6 +110,7 @@ nav ul li .um{
     transform: scaleX(1);
 }
 .texto{
+    z-index: 1;
     position: absolute;
     margin-top: 150px;
     font-size: 100px;
@@ -117,11 +118,13 @@ nav ul li .um{
     margin-left: 20px;
 }
 .icone{
+    z-index: 1;
     margin-top: 450px;
     font-size: 200px;
     margin-left: 50px;
 }
 .texto2{
+    z-index: 1;
     position: relative;
 margin-top: -250px;
 font-size: 50px;
