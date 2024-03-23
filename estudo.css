@@ -50,7 +50,7 @@ nav ul li .um{
     z-index: 2;
     position: absolute;
     height: 100%;
-    width: 200px;
+    width: 15%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -59,7 +59,6 @@ nav ul li .um{
     top: 0;
 }
 .nava{
-    z-index: 2;
     display: flex;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.3);
@@ -69,17 +68,14 @@ nav ul li .um{
     padding-top: 50px;
 }
 .nava li{
-    z-index: 2;
     font-size: 20px;
     margin: 10px 0px 0px 10px;
     font-family: sans-serif;
 }
 .nava li a{
-    z-index: 2;
     color: aliceblue;
 }
 .navbar.close{
-    z-index: 2;
     margin-left: 0px;
 }
 .navigation{
@@ -98,6 +94,7 @@ nav ul li .um{
     
 }
 .navigation a::after{
+
     content: '';
     width: 100%;
     position: absolute;
@@ -114,7 +111,6 @@ nav ul li .um{
     transform: scaleX(1);
 }
 .texto{
-    z-index: -1;
     position: absolute;
     margin-top: 150px;
     font-size: 100px;
@@ -133,4 +129,9 @@ font-size: 50px;
 font-family: Georgia;
 margin-left: 350px;
 
+}
+.caixa{
+    width: 100%;
+    background-color: black;
+    z-index: -1;
 }
