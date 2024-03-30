@@ -10,10 +10,7 @@
     border: transparent;
 }
 .menu{
-    font-size: 30px;
-    background: transparent;
-    border: transparent;
-
+    font-family: 60px;
 }
 body{
     display: flex;
