@@ -189,4 +189,5 @@ form{
     width: 500px;
     margin-left: -800px;
     height: 100px;
+    display: flexbox;
 }
