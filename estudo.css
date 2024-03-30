@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+.menu{
+    font-size: 30px;
 }
 body{
     display: flex;
@@ -68,15 +71,17 @@ header{
     max-width: fit-content 130px;
     max-height: 50px;
     background-color: transparent;
-    border: 2px solid #000000;
+    border: transparent;
     outline: none;
-    padding: 10px;
     border-radius: 6px;
+    font-family: ;
     cursor: pointer;
+    padding: 5px 20px ;
     color: #000000 ;
-    font-size: 1.1em;
+    font-size: 25px;
     font-weight: 500;
     margin-left: 20px;
+    transition: 0.5s;
 }
 .btnlogin:hover{
     background-color: #000000;
