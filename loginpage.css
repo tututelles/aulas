@@ -33,19 +33,19 @@ header{
     
 }
 .logo{
-    font-size: 2vw;
+    font-size: 20px;
     color: #000000;
     user-select: none;
     
 }
 .navigation a{
     position: relative;
-    font-size: 1.1vw;
+    font-size: 15px;
     color: #000000;
     text-decoration: none;
     font-weight: 500;
     position: relative;
-    margin-left: 40px;
+    margin-left: 25px;
     
 }
 .navigation a::after{
@@ -135,7 +135,7 @@ header{
     top: 50%;
     left: 5px;
     transform: rotateY(-50%);
-    font-size: 1vw;
+    font-size: 15px;
     color: black;
     font-weight: 500;
     pointer-events: none;
@@ -151,7 +151,7 @@ header{
     background: transparent;
     border: none;
     outline: none;
-    font-size: 1vw;
+    font-size: 15px;
     color: black;
     font-weight: 600;
     padding: 0 35px 0 5px;
@@ -160,13 +160,13 @@ header{
 .inputbox .icon{
     position: absolute;
     right: 8px;
-    font-size: 1.2vw;
+    font-size: 20px;
     color: rgb(0, 0, 0);
     line-height: 57px;
 }
 
 .remeberforgot{
-    font-size: .9vw;
+    font-size: 10px;
     color: black;
     font-weight: 500;
     margin: -15px 0 15px 0;
@@ -194,7 +194,7 @@ header{
     outline: none;
     border-radius: 6px;
     cursor: pointer;
-    font-size: 1vw;
+    font-size: 12px;
     transition: .5s;
     color: #fff;
 }
@@ -203,7 +203,7 @@ header{
     color: black;
 }
 .loginregister{
-    font-size: .9vw;
+    font-size: 15px;
     color: black;
     text-align: center;
     font-weight: 500;
