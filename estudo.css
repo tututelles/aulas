@@ -1,16 +1,18 @@
-*{
+* {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-header .logo{
+
+header .logo {
     font-size: 25px;
     color: #000000;
     user-select: none;
-    
+
 }
-body{
+
+body {
     display: flex;
     justify-content: center;
     min-height: 100vh;
@@ -23,7 +25,8 @@ body{
     margin: auto;
 
 }
-header{
+
+header {
     position: fixed;
     top: 0;
     left: 0;
@@ -34,17 +37,19 @@ header{
     justify-content: space-between;
     align-items: center;
     z-index: 99;
-    
-    
-    
+
+
+
 }
-.logo{
+
+.logo {
     font-size: 20px;
     color: #000000;
     user-select: none;
-    
+
 }
-.navigation a{
+
+.navigation a {
     position: relative;
     font-size: 15px;
     color: #000000;
@@ -52,9 +57,10 @@ header{
     font-weight: 500;
     position: relative;
     margin-left: 25px;
-    
+
 }
-.navigation a::after{
+
+.navigation a::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -65,31 +71,34 @@ header{
     bottom: -6px;
     transform: scaleX(0);
     transition: transform .5s;
-}   
-.navigation a:hover::after{
+}
+
+.navigation a:hover::after {
     transform-origin: left;
     transform: scaleX(1);
 }
-.btnlogin{
+
+.btnlogin {
     max-width: fit-content 130px;
     max-height: 50px;
     background-color: transparent;
     border: 2px solid #000000;
     outline: none;
     border-radius: 6px;
-    font-family: ;
     cursor: pointer;
-    padding: 5px 20px ;
-    color: #000000 ;
+    padding: 5px 20px;
+    color: #000000;
     font-size: 15px;
     font-weight: 500;
     margin-left: 0px;
     transition: 0.5s;
 }
-.btnlogin:hover{
+
+.btnlogin:hover {
     background-color: #000000;
     color: rgb(255, 255, 255);
 }
+
 .caixa {
     position: relative;
     width: 100%;
@@ -118,4 +127,3 @@ header{
     font-family: Georgia;
     margin-left: 350px;
 }
-
