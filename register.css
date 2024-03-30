@@ -27,20 +27,21 @@ header{
     z-index: 99;
     
 }
-.logo{
-    font-size: 2em;
+header .logo{
+    font-size: 25px;
     color: #000000;
     user-select: none;
+    margin-left: -90px;
 }
 .navigation a{
     position: relative;
-    font-size: 1.1em;
+    font-size: 15px;
     color: #000000;
     text-decoration: none;
     font-weight: 500;
     margin-left: 40px;
     position: relative;
-    margin-left: 40px;
+    margin-left: 25px;
     
 }
 .navigation a::after{
@@ -60,17 +61,20 @@ header{
     transform: scaleX(1);
 }
 .btn1{
-    width: 130px;
-    height: 50px;
+    max-width: fit-content 130px;
+    max-height: 50px;
     background-color: transparent;
     border: 2px solid #000000;
     outline: none;
+    padding: 10px;
     border-radius: 6px;
     cursor: pointer;
     color: #000000 ;
-    font-size: 1.1em;
+    font-size: 15px;
     font-weight: 500;
     margin-left: 20px;
+    margin-right: -100px;
+    transition: 0.5s;
 }
 .btn1:hover{
     background-color: #000000;
