@@ -50,7 +50,6 @@ nav ul li .um {
 }
 
 .navbar {
-    z-index: 2;
     position: absolute;
     height: 100%;
     width: 15%;
@@ -125,7 +124,6 @@ nav ul li .um {
 .caixa {
     position: relative;
     width: 100%;
-    z-index: -1;
 }
 
 .texto {
@@ -150,5 +148,5 @@ nav ul li .um {
     font-size: 50px;
     font-family: Georgia;
     margin-left: 350px;
-    z-index: -1;
 }
+
