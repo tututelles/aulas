@@ -4,8 +4,16 @@
     padding: 0;
     box-sizing: border-box;
 
+.itens{
+    font-size: 30px;
+    background: transparent;
+    border: transparent;
+}
 .menu{
     font-size: 30px;
+    background: transparent;
+    border: transparent;
+
 }
 body{
     display: flex;
