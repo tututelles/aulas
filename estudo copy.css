@@ -187,7 +187,11 @@ form{
     position: absolute;
     margin-top: 2000px;
     width: 500px;
-    margin-left: -800px;
+    margin-left: -400px;
     height: 100px;
-    display: flexbox;
+    display: block;
+
+}
+.name{
+    margin-left: 400px;
 }
