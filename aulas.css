@@ -162,6 +162,7 @@ header {
 }
 
 .hora {
+    background-color: blue;
     width: 200px;
     height: 60px;
     justify-content: center;
@@ -169,7 +170,7 @@ header {
     border-radius: 10px;
     background-color: transparent;
     margin-left: -50px;
-    cursor: pointer;
+    cursor: auto;
 }
 .horai {
     padding: 25px 105px 25px 95px;
@@ -212,6 +213,12 @@ form{
     height: 50px;
     margin-left: -450px;
     width: 400px;
+    border-radius: 15px;
+    background-color: transparent;
+}
+.bnt:hover{
+    background-color: black;
+    color: white;
 }
 .txt{
     height: 30px;
