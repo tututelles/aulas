@@ -60,7 +60,7 @@ header {
     font-weight: 500;
     position: relative;
     margin-left: 25px;
-
+    border: none;
 }
 
 .navigation a::after {
@@ -74,6 +74,7 @@ header {
     bottom: -6px;
     transform: scaleX(0);
     transition: transform .5s;
+    border: none;
 }
 
 .navigation a:hover::after {
@@ -199,15 +200,24 @@ form{
     height: 50px;
     width: 500px;
     word-wrap: break-word;
+    border-radius: 20px;
+    border: solid 2px black;
+    background-color: transparent;
+}
+.name:focus{
+    border: solid 2px black;
+    box-shadow: 10px black;
 }
 .email{
     margin-left: -500px;
     height: 50px;
     width: 500px;
     word-wrap: break-word;
-
+    border-radius: 20px;
+    border: solid 2px black;
+    background-color: transparent;
 }
-.btn{
+.oi{
     margin-top: 80px;
     margin-bottom: 200px;
     height: 50px;
@@ -215,8 +225,10 @@ form{
     width: 400px;
     border-radius: 15px;
     background-color: transparent;
+    transition: 0.5s;
+    
 }
-.bnt:hover{
+.oi:hover{
     background-color: black;
     color: white;
 }
