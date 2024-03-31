@@ -141,7 +141,7 @@ header {
     background-color: transparent;
     justify-content: space-between;
     margin-left: 26%;
-    margin-top: -360px;
+    margin-top: -379px;
 }
 
 .quarta {
@@ -150,7 +150,7 @@ header {
     background-color: transparent;
     justify-content: space-between;
     margin-left: 52%;
-    margin-top: -360px;
+    margin-top: -379px;
 }
 
 .quinta {
@@ -159,7 +159,7 @@ header {
     background-color: transparent;
     justify-content: space-between;
     margin-left: 78%;
-    margin-top: -360px;
+    margin-top: -379px;
 }
 
 .hora {
@@ -174,12 +174,14 @@ header {
     cursor: auto;
 }
 .horai {
-    padding: 25px 105px 25px 95px;
+    width: 200px;
+    height: 60px;
     justify-content: center;
     border: 4px #000000 solid;
     border-radius: 10px;
-    background-color: rgba(255, 00, 0, 0.5);
-    
+    background-color: red;
+    margin-left: -50px;
+    cursor: auto;
 }
 .linkagenda{
     transition-duration: 1s;
