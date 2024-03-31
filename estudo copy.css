@@ -187,11 +187,32 @@ form{
     position: absolute;
     margin-top: 2000px;
     width: 500px;
-    margin-left: -400px;
+    margin-left: 100px;
     height: 100px;
-    display: block;
-
+    display: flex;
+    padding-bottom: 100px;
 }
 .name{
-    margin-left: 400px;
+    margin-left: 00px;
+    margin-top: -80px;
+    height: 50px;
+    width: 500px;
+    word-wrap: break-word;
+}
+.email{
+    margin-left: -500px;
+    height: 50px;
+    width: 500px;
+    word-wrap: break-word;
+
+}
+.btn{
+    margin-top: 80px;
+    margin-bottom: 200px;
+    height: 50px;
+    margin-left: -450px;
+    width: 400px;
+}
+.txt{
+    height: 30px;
 }
