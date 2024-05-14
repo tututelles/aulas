@@ -6,6 +6,8 @@
 }
 html{
     scroll-behavior: smooth;
+    scrollbar-color: black;
+    scrollbar-width: 20px;
 }
 header .logo {
     font-size: 25px;
@@ -23,7 +25,7 @@ body {
     background-size: cover;
     background-position: center;
     min-width: 320px;
-    max-width: 1080px;
+    max-width: 920px;
     margin: auto;
 
 }
@@ -93,14 +95,14 @@ header {
     margin-top: 150px;
     font-size: 6vw;
     font-family: Georgia;
-    margin-left: -150px;
+    margin-left: -300px;
 
 }
 
 .icone {
     margin-top: 30px;
     font-size: 20vw;
-    margin-left: -150px;
+    margin-left: -300px;
 
 }
 
@@ -108,7 +110,7 @@ header {
     position: relative;
     font-size: 3vw;
     font-family: Georgia;
-    margin-left: 20%;
+    margin-left: ;
     margin-top: -300px;
     width: 700px;
 }
@@ -140,7 +142,7 @@ header {
     height: 100%;
     background-color: transparent;
     justify-content: space-between;
-    margin-left: 26%;
+    margin-left: 31%;
     margin-top: -379px;
 }
 
@@ -149,7 +151,7 @@ header {
     height: 100%;
     background-color: transparent;
     justify-content: space-between;
-    margin-left: 52%;
+    margin-left: 62%;
     margin-top: -379px;
 }
 
@@ -158,7 +160,7 @@ header {
     height: 100%;
     background-color: transparent;
     justify-content: space-between;
-    margin-left: 78%;
+    margin-left: 93%;
     margin-top: -379px;
 }
 
