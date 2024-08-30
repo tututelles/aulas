@@ -195,11 +195,13 @@ img {
 }
 
 header{
+  margin-top: -100px;
   width: 100%;
   display: flex;
   flex-direction: row;
   position: fixed;
-  backdrop-filter: blur(10px);  
+  background-color: var(--first-color-light);  
+  backdrop-filter: blur(10px);
 }
 header ul{
   margin-left: 10%;
@@ -209,14 +211,15 @@ header ul{
 }
 header ul li{
   text-decoration: none;
-  color: white;
+  color:var(--body-color);
   justify-content: space-between;
   margin-left: 30px;
   margin-top: 30px;
 }
 header ul li a{
-  color: white;
+  color: black;
   font-family: "Trirong", serif;
+  scroll-behavior: smooth;
 
 }
 header img{
@@ -224,10 +227,12 @@ header img{
   height: 70px;
   border-radius: 50%;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 .tit{
-  position: relative;
-  top: 100px;
+  margin-top:100px;
   font-family: "Trirong", serif;
   font-size:600%;
   margin-left: 15%;
