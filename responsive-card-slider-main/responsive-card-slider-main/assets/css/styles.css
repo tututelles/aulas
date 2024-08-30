@@ -51,6 +51,7 @@ img {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  margin-bottom: 10vh;
 }
 
 .card__container {
@@ -199,6 +200,7 @@ img {
 header{
   margin-top: -100px;
   width: 100%;
+  z-index: 20;
   display: flex;
   flex-direction: row;
   position: fixed;
@@ -245,12 +247,15 @@ html {
   transition-duration: 0.5s;
   transition-delay:2s;
 }
-.texto{
+.text{
   font-family: "Trirong", serif;
 color: white;
 font-size: larger;
 padding: 10px;
 background-color: rgba(255,255,255,0.5);
+color: black;
+margin: 10px;
+border-radius: 10px;
 }
 
 
