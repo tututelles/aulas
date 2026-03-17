@@ -9,10 +9,10 @@
   --first-color-light: rgba(255,255,255,0.5);
   --first-color-alt: hsl(32, 75%, 50%);
   --second-color: white;
-  --dark-color: hsl(212, 40%, 12%);
+  --dark-color: hsl(251, 48%, 41%);
   --white-color: hsl(212, 4%, 95%);
-  --body-color: #285485;
-  --container-color: hsl(212, 42%, 20%);
+  --body-color: #e79332;
+  --container-color: hsl(224, 70%, 42%);
 
   /*========== Font and typography ==== ======*/
   /*.5rem = 8px | 1rem = 16px ...*/
@@ -238,7 +238,8 @@ html {
 .tit{
   margin-top:100px;
   font-family: "Trirong", serif;
-  font-size:350%;
+  font-size:500%;
+  text-shadow:bottom 20px black;
   margin-left: 30%;
   color: white;
 }
